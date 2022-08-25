@@ -2,8 +2,9 @@ import styled from 'styled-components'
 
 export const HomeContainer = styled.main`
 display: flex;
-justify-content: space-around;
+justify-content: center;
 
 margin-top: 30px;
+gap: 20px;
 
 `
