@@ -13,7 +13,7 @@ export const Header = () => {
       <nav>
         <NavLink to={'/'}>Cadastro de Transações</NavLink>
         <span>|</span>
-        <button>Limpar Dados</button>
+        <NavLink to={'/'}>Limpar Dados</NavLink>
       </nav>
     </HeaderContainer>
   );

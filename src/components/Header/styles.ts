@@ -16,11 +16,25 @@ div{
 
 nav{
 display: flex;
-gap: 1rem;
 align-items: center;
 
 background-color: ${props => props.theme['white']};
-padding: 4px 20px;
+
+
+  a{
+    padding: 4px 20px;
+    border: none;
+    background-color: ${props => props.theme['white']};
+
+    font-weight: 600;
+    font: 1rem;
+    line-height: 19px;
+
+    &:hover {
+      background-color: ${props => props.theme['gray-300']} ;
+    }
+  }
+
 }
 
 `

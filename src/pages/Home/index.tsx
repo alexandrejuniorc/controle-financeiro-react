@@ -1,3 +1,12 @@
+import { Extract } from '../../components/Extract';
+import { Transation } from '../../components/Transation';
+import { HomeContainer } from './styles';
+
 export const Home = () => {
-  return <div>Home</div>;
+  return (
+    <HomeContainer>
+      <Transation />
+      <Extract />
+    </HomeContainer>
+  );
 };
